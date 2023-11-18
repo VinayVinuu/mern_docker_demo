@@ -1,5 +1,5 @@
 # specify base image from dockerhub
-FROM node:14-alpine3.10
+FROM node:21-alpine3.17
 
 LABEL version="1.0"
 LABEL description="Development image for the Library MERN API"
